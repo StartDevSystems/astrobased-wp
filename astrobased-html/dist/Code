@@ -1,46 +1,46 @@
 <!---MAIN DE CentroEstudio-->
 
 
-<main class="main-content" data-astro-cid-7hkcgugf>
-  <div class="container" data-astro-cid-7hkcgugf>
-    <header class="page-header" data-astro-cid-7hkcgugf>
-      <h1 class="page-title" data-astro-cid-7hkcgugf>Centros de estudios</h1>
+<main class="main-content_estudios">
+  <div class="container_estudios">
+    <header class="page-header_estudios">
+      <h1 class="page-title_estudios">Centros de estudios</h1>
     </header>
-    <div class="centros-grid" data-astro-cid-7hkcgugf>
-      <a href="/centros/ccip" class="centro-card" data-astro-cid-7hkcgugf>
-        <div class="centro-logo" data-astro-cid-7hkcgugf>
-          <img src="/imagenes/logos/logo.png" alt="Logo de CCIP" data-astro-cid-7hkcgugf>
+    <div class="centros-grid_estudios">
+      <a href="/centros/ccip" class="centro-card_estudios">
+        <div class="centro-logo_estudios">
+          <img src="/imagenes/logos/logo.png" alt="Logo de CCIP">
         </div>
-        <div class="centro-info" data-astro-cid-7hkcgugf>
-          <span class="centro-siglas" data-astro-cid-7hkcgugf>CCIP</span>
-          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Capacitación e Investigación del Plástico</p>
-        </div>
-      </a>
-      <a href="/centros/cega" class="centro-card" data-astro-cid-7hkcgugf>
-        <div class="centro-logo" data-astro-cid-7hkcgugf>
-          <img src="/imagenes/logos/logo.png" alt="Logo de CEGA" data-astro-cid-7hkcgugf>
-        </div>
-        <div class="centro-info" data-astro-cid-7hkcgugf>
-          <span class="centro-siglas" data-astro-cid-7hkcgugf>CEGA</span>
-          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Gestión Ambiental</p>
+        <div class="centro-info_estudios">
+          <span class="centro-siglas_estudios">CCIP</span>
+          <p class="centro-nombre_estudios">Centro de Capacitación e Investigación del Plástico</p>
         </div>
       </a>
-      <a href="/centros/ceg" class="centro-card" data-astro-cid-7hkcgugf>
-        <div class="centro-logo" data-astro-cid-7hkcgugf>
-          <img src="/imagenes/logos/logo.png" alt="Logo de CEG" data-astro-cid-7hkcgugf>
+      <a href="/centros/cega" class="centro-card_estudios">
+        <div class="centro-logo_estudios">
+          <img src="/imagenes/logos/logo.png" alt="Logo de CEGA">
         </div>
-        <div class="centro-info" data-astro-cid-7hkcgugf>
-          <span class="centro-siglas" data-astro-cid-7hkcgugf>CEG</span>
-          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Estudios del Género</p>
+        <div class="centro-info_estudios">
+          <span class="centro-siglas_estudios">CEGA</span>
+          <p class="centro-nombre_estudios">Centro de Gestión Ambiental</p>
         </div>
       </a>
-      <a href="/centros/cinnes" class="centro-card" data-astro-cid-7hkcgugf>
-        <div class="centro-logo" data-astro-cid-7hkcgugf>
-          <img src="/imagenes/logos/logo.png" alt="Logo de CINNES" data-astro-cid-7hkcgugf>
+      <a href="/centros/ceg" class="centro-card_estudios">
+        <div class="centro-logo_estudios">
+          <img src="/imagenes/logos/logo.png" alt="Logo de CEG">
         </div>
-        <div class="centro-info" data-astro-cid-7hkcgugf>
-          <span class="centro-siglas" data-astro-cid-7hkcgugf>CINNES</span>
-          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Innovación en Educación Superior</p>
+        <div class="centro-info_estudios">
+          <span class="centro-siglas_estudios">CEG</span>
+          <p class="centro-nombre_estudios">Centro de Estudios del Género</p>
+        </div>
+      </a>
+      <a href="/centros/cinnes" class="centro-card_estudios">
+        <div class="centro-logo_estudios">
+          <img src="/imagenes/logos/logo.png" alt="Logo de CINNES">
+        </div>
+        <div class="centro-info_estudios">
+          <span class="centro-siglas_estudios">CINNES</span>
+          <p class="centro-nombre_estudios">Centro de Innovación en Educación Superior</p>
         </div>
       </a>
     </div>
@@ -56,7 +56,7 @@
 
 
 
-<!---CSS DE LABORATORIO-->
+<!------------------------------------------------------CSS DE centro-------------------------------------------------------->
 
 
 @import "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
@@ -71,39 +71,39 @@
   --font-principal: "Lato", sans-serif;
 }
 
-.main-content[data-astro-cid-7hkcgugf] {
+.main-content_estudios {
   padding: 4.5rem 0;
   background-color: var(--color-fondo);
   font-family: var(--font-principal);
 }
 
-.container[data-astro-cid-7hkcgugf] {
+.container_estudios {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 1.5rem;
   margin-top: 3.1rem;
 }
 
-.page-header[data-astro-cid-7hkcgugf] {
+.page-header_estudios {
   margin-bottom: 2.5rem;
   padding-bottom: 1.5rem;
   border-bottom: 1px solid var(--color-borde);
 }
 
-.page-title[data-astro-cid-7hkcgugf] {
+.page-title_estudios {
   font-size: 2rem;
   font-weight: 300;
   color: var(--color-texto-principal);
   margin: 0;
 }
 
-.centros-grid[data-astro-cid-7hkcgugf] {
+.centros-grid_estudios {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
 }
 
-.centro-card[data-astro-cid-7hkcgugf] {
+.centro-card_estudios {
   background-color: #fff;
   border: 1px solid var(--color-borde);
   border-radius: 4px;
@@ -113,22 +113,72 @@
   gap: 2rem;
   text-decoration: none;
   color: inherit;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
 }
 
-.centro-card[data-astro-cid-7hkcgugf]:hover {
+.centro-card_estudios:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 10px 25px #00000014;
   border-color: var(--color-dorado-unev);
 }
 
-.centro-logo[data-astro-cid-7hkcgugf] {
+.centro-logo_estudios {
   flex-shrink: 0;
   width: 80px;
   height: 80px;
 }
 
-.centro-logo[data-astro-cid-7hkcgugf] img[data-astro-cid-7hk
+.centro-logo_estudios img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.logo-placeholder_estudios {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}
+
+.centro-info_estudios {
+  display: flex;
+  flex-direction: column;
+}
+
+.centro-siglas_estudios {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-rojo-unev);
+  margin-bottom: .25rem;
+  transition: color .3s ease;
+}
+
+.centro-card_estudios:hover .centro-siglas_estudios {
+  color: var(--color-dorado-unev);
+}
+
+.centro-nombre_estudios {
+  font-size: .9rem;
+  color: var(--color-texto-secundario);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .centros-grid_estudios {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .centro-card_estudios {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}
 
 
 
@@ -138,9 +188,9 @@
 
 
 
+<!-----------------------------------------------------------JS DE centro------------------------------------------------>
 
 
-<!---JS DE LABORATORIO-->
 window.addEventListener("scroll", () => {
   const e = document.getElementById("navbar");
   window.scrollY > 50 ? e.classList.add("scrolled") : e.classList.remove("scrolled")
@@ -187,3 +237,918 @@ y.forEach(e => {
     t = false, l.classList.remove("active"), c.style.display = "block", o.style.display = "none"
   })
 });
+
+
+
+
+
+
+
+
+<!-------------------------------------------------Main de Consejo ------------------------------------------------>
+
+
+<main class="main_consejo" id="main-content">
+    <div class="container_consejo">
+        <!-- Hero Section -->
+        <section class="hero-section_consejo">
+            <div class="hero-content_consejo">
+                <h1 class="hero-title_consejo">Consejo de Investigación</h1>
+                <p class="hero-description_consejo">
+                    El Consejo de Investigación es el órgano encargado de promover y supervisar las actividades 
+                    de investigación en nuestra institución. Su misión es fomentar un entorno de excelencia 
+                    académica y científica, apoyando proyectos innovadores y garantizando el cumplimiento de 
+                    estándares éticos y de calidad en todas las investigaciones realizadas.
+                </p>
+            </div>
+            <div class="hero-decoration_consejo">
+                <div class="decoration-circle_consejo"></div>
+                <div class="decoration-dots_consejo"></div>
+            </div>
+        </section>
+        <!-- Council Members Grid -->
+        <section class="council-section_consejo">
+            <h2 class="section-title_consejo">Miembros del Consejo</h2>
+            <div class="council-grid_consejo">
+                <!-- Member 1 - Chair -->
+                <article class="council-card_consejo chair-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dra. María Elena Rodríguez</span>
+                        </div>
+                        <div class="chair-badge_consejo">
+                            <span>Presidenta</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dra. María Elena Rodríguez</h3>
+                        <p class="member-title_consejo">Vicerrectora de Investigación y Vinculación</p>
+                        <p class="member-department_consejo">Presidenta del Consejo</p>
+                    </div>
+                </article>
+                <!-- Member 2 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dr. Roberto Martínez</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dr. Roberto Martínez</h3>
+                        <p class="member-title_consejo">Director División de Investigación</p>
+                        <p class="member-department_consejo">Coordinación General</p>
+                    </div>
+                </article>
+                <!-- Member 3 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dr. Fernando González</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dr. Fernando González</h3>
+                        <p class="member-title_consejo">Decano Facultad de Ingenierías</p>
+                        <p class="member-department_consejo">Representante Ingeniería</p>
+                    </div>
+                </article>
+                <!-- Member 4 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dra. Carmen Delgado</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dra. Carmen Delgado</h3>
+                        <p class="member-title_consejo">Decana Facultad de Ciencias Sociales</p>
+                        <p class="member-department_consejo">Representante Ciencias Sociales</p>
+                    </div>
+                </article>
+                <!-- Member 5 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dr. Luis Alberto Pérez</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dr. Luis Alberto Pérez</h3>
+                        <p class="member-title_consejo">Decano Facultad de Ciencias Económicas</p>
+                        <p class="member-department_consejo">Representante Ciencias Económicas</p>
+                    </div>
+                </article>
+                <!-- Member 6 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dr. Rafael Moreno</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dr. Rafael Moreno</h3>
+                        <p class="member-title_consejo">Director de Posgrados</p>
+                        <p class="member-department_consejo">Representante Estudios Avanzados</p>
+                    </div>
+                </article>
+                <!-- Member 7 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dra. Ana Patricia Jiménez</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dra. Ana Patricia Jiménez</h3>
+                        <p class="member-title_consejo">Coordinadora de Proyectos</p>
+                        <p class="member-department_consejo">Secretaria del Consejo</p>
+                    </div>
+                </article>
+                <!-- Member 8 -->
+                <article class="council-card_consejo">
+                    <div class="card-image_consejo">
+                        <div class="placeholder-image_consejo">
+                            <span>Dr. José Miguel Herrera</span>
+                        </div>
+                    </div>
+                    <div class="card-content_consejo">
+                        <h3 class="member-name_consejo">Dr. José Miguel Herrera</h3>
+                        <p class="member-title_consejo">Investigador Senior</p>
+                        <p class="member-department_consejo">Representante Docente</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- Vision and Commitment Section -->
+        <section class="vision-section_consejo">
+            <div class="vision-content_consejo">
+                <div class="vision-header_consejo">
+                    <h2 class="vision-title_consejo">Compromiso y Visión</h2>
+                    <div class="title-underline_consejo"></div>
+                </div>
+                <div class="vision-text_consejo">
+                    <p>
+                        El Consejo de Investigación se compromete a fomentar una cultura de investigación 
+                        colaborativa y multidisciplinaria, apoyando a nuestros investigadores en el 
+                        desarrollo de proyectos que contribuyan al avance del conocimiento y al bienestar 
+                        de la sociedad.
+                    </p>
+                </div>
+            </div>
+            <!-- Vision Cards -->
+            <div class="vision-cards_consejo">
+                <div class="vision-card_consejo">
+                    <div class="vision-icon_consejo">🎯</div>
+                    <h3>Misión</h3>
+                    <p>Promover la excelencia en investigación mediante la supervisión y apoyo de proyectos innovadores que generen impacto científico y social.</p>
+                </div>
+                <div class="vision-card_consejo">
+                    <div class="vision-icon_consejo">👁️</div>
+                    <h3>Visión</h3>
+                    <p>Ser reconocidos como un consejo líder en la promoción de investigación de alta calidad y relevancia para el desarrollo nacional.</p>
+                </div>
+                <div class="vision-card_consejo">
+                    <div class="vision-icon_consejo">⚖️</div>
+                    <h3>Valores</h3>
+                    <p>Integridad, excelencia, colaboración, innovación y compromiso con el desarrollo sostenible de la sociedad dominicana.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Functions Section -->
+        <section class="functions-section_consejo">
+            <div class="functions-container_consejo">
+                <h2 class="section-title_consejo">Funciones del Consejo</h2>
+                <div class="functions-grid_consejo">
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">01</div>
+                        <div class="function-content_consejo">
+                            <h3>Evaluación de Proyectos</h3>
+                            <p>Revisar y evaluar propuestas de investigación para garantizar su calidad científica y viabilidad.</p>
+                        </div>
+                    </div>
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">02</div>
+                        <div class="function-content_consejo">
+                            <h3>Supervisión Ética</h3>
+                            <p>Asegurar el cumplimiento de estándares éticos en todas las investigaciones realizadas en la universidad.</p>
+                        </div>
+                    </div>
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">03</div>
+                        <div class="function-content_consejo">
+                            <h3>Política de Investigación</h3>
+                            <p>Desarrollar y actualizar las políticas institucionales relacionadas con la investigación académica.</p>
+                        </div>
+                    </div>
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">04</div>
+                        <div class="function-content_consejo">
+                            <h3>Promoción y Difusión</h3>
+                            <p>Promover la cultura de investigación y facilitar la difusión de resultados científicos.</p>
+                        </div>
+                    </div>
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">05</div>
+                        <div class="function-content_consejo">
+                            <h3>Colaboración Interinstitucional</h3>
+                            <p>Fomentar alianzas estratégicas con otras instituciones para fortalecer la investigación.</p>
+                        </div>
+                    </div>
+                    <div class="function-item_consejo">
+                        <div class="function-number_consejo">06</div>
+                        <div class="function-content_consejo">
+                            <h3>Formación de Investigadores</h3>
+                            <p>Apoyar el desarrollo de capacidades investigativas en docentes y estudiantes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+
+
+
+
+
+
+<!-------------------------------------------------Css de Consejo ------------------------------------------------>
+
+#navbar {
+  height: 0px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#navbar:has(.desktop-nav:hover) {
+  height: 78px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+#navbar:has(.nav-item:hover) .nav-link {
+  color: black;
+}
+
+/* Estilos para el breadcrumb */
+.breadcrumb_consejo {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.breadcrumb_consejo .container_consejo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.breadcrumb-list_consejo {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-list_consejo li {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb-list_consejo li:not(:last-child)::after {
+  content: "»";
+  margin: 0 8px;
+  color: #6c757d;
+}
+
+.breadcrumb-list_consejo a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s ease-in-out;
+}
+
+.breadcrumb-list_consejo a:hover {
+  color: #0056b3;
+}
+
+.breadcrumb-list_consejo li[aria-current="page"] {
+  color: #6c757d;
+  font-weight: 600;
+}
+
+
+/* Estilos de main */
+.main_consejo {
+  padding: 60px 0;
+  background-color: #ffffff;
+  min-height: calc(100vh - 150px); /* Ajustar según la altura del header/footer */
+}
+
+.main_consejo .container_consejo {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero-section_consejo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 60px 0;
+  margin-bottom: 60px;
+  background: linear-gradient(135deg, #1a365d, #2b6cb0);
+  color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content_consejo {
+  flex: 1;
+  padding: 0 40px;
+  z-index: 1;
+}
+
+.hero-title_consejo {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero-description_consejo {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  opacity: 0.9;
+}
+
+.hero-decoration_consejo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 40%;
+  pointer-events: none;
+}
+
+.decoration-circle_consejo {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  top: -50px;
+  right: -50px;
+  transform: translate(0, 0) rotate(0deg);
+  transition: transform 0.8s ease-out;
+}
+
+.decoration-dots_consejo {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: radial-gradient(white 15%, transparent 15%);
+  background-size: 20px 20px;
+  opacity: 0.15;
+  bottom: 20px;
+  right: 100px;
+  transform: translate(0, 0);
+  transition: transform 0.8s ease-out;
+}
+
+/* Council Section */
+.council-section_consejo {
+  margin-bottom: 80px;
+}
+
+.section-title_consejo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.section-title_consejo::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #2b6cb0;
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+.council-grid_consejo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.council-card_consejo {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInBottom 0.8s ease-out forwards;
+  opacity: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.council-card_consejo:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.council-card_consejo:nth-child(1) { animation-delay: 0.1s; }
+.council-card_consejo:nth-child(2) { animation-delay: 0.2s; }
+.council-card_consejo:nth-child(3) { animation-delay: 0.3s; }
+.council-card_consejo:nth-child(4) { animation-delay: 0.4s; }
+.council-card_consejo:nth-child(5) { animation-delay: 0.5s; }
+.council-card_consejo:nth-child(6) { animation-delay: 0.6s; }
+.council-card_consejo:nth-child(7) { animation-delay: 0.7s; }
+.council-card_consejo:nth-child(8) { animation-delay: 0.8s; }
+
+
+.chair-card_consejo {
+  border: 3px solid #bc9201; /* Dorado para destacar al presidente */
+  box-shadow: 0 8px 30px rgba(188, 146, 1, 0.2);
+}
+
+.card-image_consejo {
+  width: 100%;
+  height: 200px;
+  background-color: #edf2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  position: relative;
+  overflow: hidden;
+}
+
+.placeholder-image_consejo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e2e8f0;
+  color: #4a5568;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 10px;
+}
+
+.chair-badge_consejo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #bc9201;
+  color: #fff;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-content_consejo {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.member-name_consejo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.member-title_consejo {
+  font-size: 1rem;
+  color: #4a5568;
+  margin-bottom: 5px;
+}
+
+.member-department_consejo {
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+/* Vision and Commitment Section */
+.vision-section_consejo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 80px;
+  padding: 40px;
+  background-color: #f7fafc;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.vision-header_consejo {
+  margin-bottom: 30px;
+}
+
+.vision-title_consejo {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.title-underline_consejo {
+  width: 60px;
+  height: 3px;
+  background-color: #2b6cb0;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.vision-text_consejo p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4a5568;
+  text-align: center;
+}
+
+.vision-cards_consejo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.vision-card_consejo {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.vision-card_consejo:nth-child(1) { animation-delay: 0.1s; }
+.vision-card_consejo:nth-child(2) { animation-delay: 0.3s; }
+.vision-card_consejo:nth-child(3) { animation-delay: 0.5s; }
+
+
+.vision-card_consejo:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.vision-icon_consejo {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #2b6cb0;
+}
+
+.vision-card_consejo h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 10px;
+}
+
+.vision-card_consejo p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+/* Functions Section */
+.functions-section_consejo {
+  margin-bottom: 60px;
+}
+
+.functions-container_consejo {
+  padding: 40px;
+  background-color: #e6fffa; /* Un color suave para esta sección */
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.functions-section_consejo .section-title_consejo {
+  color: #2d3748;
+  margin-bottom: 50px;
+}
+
+.functions-grid_consejo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.function-item_consejo {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeInLeft 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.function-item_consejo:nth-child(1) { animation-delay: 0.1s; }
+.function-item_consejo:nth-child(2) { animation-delay: 0.2s; }
+.function-item_consejo:nth-child(3) { animation-delay: 0.3s; }
+.function-item_consejo:nth-child(4) { animation-delay: 0.4s; }
+.function-item_consejo:nth-child(5) { animation-delay: 0.5s; }
+.function-item_consejo:nth-child(6) { animation-delay: 0.6s; }
+
+
+.function-item_consejo:hover {
+  transform: translateX(6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.function-number_consejo {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(45deg, #2b6cb0, #3182ce);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.function-number_consejo:hover {
+  transform: scale(1.1) rotate(5deg);
+  background: linear-gradient(45deg, #3182ce, #4299e1); /* Un gradiente ligeramente diferente al hacer hover */
+}
+
+
+.function-content_consejo h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.function-content_consejo p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4a5568;
+}
+
+/* Animaciones */
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .hero-section_consejo {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .hero-decoration_consejo {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+  }
+
+  .decoration-circle_consejo,
+  .decoration-dots_consejo {
+    position: absolute;
+    transform: none !important;
+  }
+
+  .decoration-circle_consejo {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+  }
+
+  .decoration-dots_consejo {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .hero-title_consejo {
+    font-size: 2.5rem;
+  }
+
+  .hero-description_consejo {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title_consejo {
+    font-size: 2rem;
+  }
+
+  .council-grid_consejo,
+  .vision-cards_consejo,
+  .functions-grid_consejo {
+    grid-template-columns: 1fr;
+  }
+
+  .council-card_consejo {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .card-image_consejo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 20px 0 0;
+    flex-shrink: 0;
+    border-bottom: none;
+  }
+
+  .placeholder-image_consejo {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+
+  .chair-badge_consejo {
+    position: static;
+    margin-top: 10px;
+    display: inline-block;
+  }
+
+  .card-content_consejo {
+    text-align: left;
+    padding: 15px 0;
+  }
+
+  .member-name_consejo {
+    font-size: 1.2rem;
+  }
+
+  .member-title_consejo,
+  .member-department_consejo {
+    font-size: 0.85rem;
+  }
+
+  .vision-title_consejo {
+    font-size: 1.8rem;
+  }
+
+  .function-item_consejo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .function-number_consejo {
+    margin: 0 auto 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main_consejo .container_consejo {
+    padding: 0 15px;
+  }
+
+  .hero-section_consejo {
+    padding: 30px 20px;
+  }
+
+  .hero-title_consejo {
+    font-size: 2rem;
+  }
+
+  .hero-description_consejo {
+    font-size: 0.95rem;
+  }
+
+  .section-title_consejo {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+  }
+
+  .council-card_consejo {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card-image_consejo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 15px;
+  }
+
+  .card-content_consejo {
+    padding: 0;
+  }
+
+  .member-name_consejo {
+    font-size: 1.1rem;
+  }
+
+  .vision-section_consejo,
+  .functions-container_consejo {
+    padding: 25px 20px;
+  }
+
+  .vision-title_consejo {
+    font-size: 1.5rem;
+  }
+}
+
+/* Estilos del skip-link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: var(--primary-color); /* Asegúrate de que --primary-color esté definido o usa un color fijo */
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1001;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
+
+/* Keyframes para el icono bounce */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
