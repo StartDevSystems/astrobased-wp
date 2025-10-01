@@ -1,226 +1,142 @@
-<!---MAIN DE LABORATORIO-->
+<!---MAIN DE CentroEstudio-->
 
 
-<main class="observatorios-page" data-astro-cid-3xs2fmde>
-  <!-- Header Section -->
-  <section class="hero-section" data-astro-cid-3xs2fmde>
-    <div class="container" data-astro-cid-3xs2fmde>
-      <h1 class="page-title" data-astro-cid-3xs2fmde>Nuestros observatorios</h1>
+<main class="main-content" data-astro-cid-7hkcgugf>
+  <div class="container" data-astro-cid-7hkcgugf>
+    <header class="page-header" data-astro-cid-7hkcgugf>
+      <h1 class="page-title" data-astro-cid-7hkcgugf>Centros de estudios</h1>
+    </header>
+    <div class="centros-grid" data-astro-cid-7hkcgugf>
+      <a href="/centros/ccip" class="centro-card" data-astro-cid-7hkcgugf>
+        <div class="centro-logo" data-astro-cid-7hkcgugf>
+          <img src="/imagenes/logos/logo.png" alt="Logo de CCIP" data-astro-cid-7hkcgugf>
+        </div>
+        <div class="centro-info" data-astro-cid-7hkcgugf>
+          <span class="centro-siglas" data-astro-cid-7hkcgugf>CCIP</span>
+          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Capacitación e Investigación del Plástico</p>
+        </div>
+      </a>
+      <a href="/centros/cega" class="centro-card" data-astro-cid-7hkcgugf>
+        <div class="centro-logo" data-astro-cid-7hkcgugf>
+          <img src="/imagenes/logos/logo.png" alt="Logo de CEGA" data-astro-cid-7hkcgugf>
+        </div>
+        <div class="centro-info" data-astro-cid-7hkcgugf>
+          <span class="centro-siglas" data-astro-cid-7hkcgugf>CEGA</span>
+          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Gestión Ambiental</p>
+        </div>
+      </a>
+      <a href="/centros/ceg" class="centro-card" data-astro-cid-7hkcgugf>
+        <div class="centro-logo" data-astro-cid-7hkcgugf>
+          <img src="/imagenes/logos/logo.png" alt="Logo de CEG" data-astro-cid-7hkcgugf>
+        </div>
+        <div class="centro-info" data-astro-cid-7hkcgugf>
+          <span class="centro-siglas" data-astro-cid-7hkcgugf>CEG</span>
+          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Estudios del Género</p>
+        </div>
+      </a>
+      <a href="/centros/cinnes" class="centro-card" data-astro-cid-7hkcgugf>
+        <div class="centro-logo" data-astro-cid-7hkcgugf>
+          <img src="/imagenes/logos/logo.png" alt="Logo de CINNES" data-astro-cid-7hkcgugf>
+        </div>
+        <div class="centro-info" data-astro-cid-7hkcgugf>
+          <span class="centro-siglas" data-astro-cid-7hkcgugf>CINNES</span>
+          <p class="centro-nombre" data-astro-cid-7hkcgugf>Centro de Innovación en Educación Superior</p>
+        </div>
+      </a>
     </div>
-  </section>
-
-  <!-- Observatorios Content -->
-  <section class="observatorios-content" data-astro-cid-3xs2fmde>
-    <div class="container" data-astro-cid-3xs2fmde>
-      <!-- ODCI -->
-      <div class="observatorio-card" data-astro-cid-3xs2fmde>
-        <div class="observatorio-image" data-astro-cid-3xs2fmde>
-          <img src="/images/odci-investigacion.jpeg" alt="Observatorio Dominicano de Comercio Internacional" data-astro-cid-3xs2fmde>
-        </div>
-        <div class="observatorio-info" data-astro-cid-3xs2fmde>
-          <h2 data-astro-cid-3xs2fmde>Observatorio Dominicano de Comercio Internacional</h2>
-          <p data-astro-cid-3xs2fmde>Centro especializado en el análisis y seguimiento del comercio internacional dominicano, proporcionando información estratégica para la toma de decisiones en el sector empresarial y gubernamental.</p>
-        </div>
-      </div>
-
-      <!-- ONLT -->
-      <div class="observatorio-card" data-astro-cid-3xs2fmde>
-        <div class="observatorio-info" data-astro-cid-3xs2fmde>
-          <h2 data-astro-cid-3xs2fmde>Observatorio Nacional de Logística y Transporte de Carga</h2>
-          <p data-astro-cid-3xs2fmde>Unidad de investigación dedicada al estudio y análisis del sector logístico y de transporte de carga en República Dominicana, contribuyendo al desarrollo de políticas públicas y mejores prácticas en el sector.</p>
-        </div>
-        <div class="observatorio-image" data-astro-cid-3xs2fmde>
-          <img src="/images/onlt-rd-investigacion.jpeg" alt="Observatorio Nacional de Logística y Transporte" data-astro-cid-3xs2fmde>
-        </div>
-      </div>
-
-      <!-- ONTIC -->
-      <div class="observatorio-card" data-astro-cid-3xs2fmde>
-        <div class="observatorio-image" data-astro-cid-3xs2fmde>
-          <img src="/images/ontic.jpeg" alt="ONTIC" data-astro-cid-3xs2fmde>
-        </div>
-        <div class="observatorio-info" data-astro-cid-3xs2fmde>
-          <h2 data-astro-cid-3xs2fmde>ONTIC</h2>
-          <p data-astro-cid-3xs2fmde>Es un centro de gestión de información, investigación y monitoreo del sector de las Tecnologías de la Información y las Comunicaciones (TIC) y su entorno cuya finalidad es incidir en las políticas públicas y en la mejora de la actividad productiva nacional.</p>
-        </div>
-      </div>
-
-      <!-- OCCR -->
-      <div class="observatorio-card" data-astro-cid-3xs2fmde>
-        <div class="observatorio-info" data-astro-cid-3xs2fmde>
-          <h2 data-astro-cid-3xs2fmde>OCCR</h2>
-          <p data-astro-cid-3xs2fmde>El Observatorio de Cambio Climático y Resiliencia (Infoclima | Rep. Dom) tiene sede en el Instituto Tecnológico de Santo Domingo (INTEC) y cuenta con la participación del City College of New York (CCNY) y la Red Ambiental de Universidades Dominicanas (RAUDO) que desarrollan herramientas de información climática para ponerlas a disposición de la sociedad para la toma de decisiones.</p>
-        </div>
-        <div class="observatorio-image" data-astro-cid-3xs2fmde>
-          <img src="/images/occr-banner.jpeg" alt="Observatorio de Cambio Climático y Resiliencia" data-astro-cid-3xs2fmde>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
 </main>
+
+
+
+
+
+
+
 
 
 
 <!---CSS DE LABORATORIO-->
 
 
-.observatorios-page[data-astro-cid-3xs2fmde] {
-  min-height: 100vh;
-  background-color: #f8f9fa;
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+:root {
+  --color-rojo-unev: #960201;
+  --color-dorado-unev: #bc9201;
+  --color-texto-principal: #212529;
+  --color-texto-secundario: #5a5a5a;
+  --color-borde: #dee2e6;
+  --color-fondo: #f8f9fa;
+  --font-principal: "Lato", sans-serif;
 }
 
-.container[data-astro-cid-3xs2fmde] {
-  max-width: 1200px;
+.main-content[data-astro-cid-7hkcgugf] {
+  padding: 4.5rem 0;
+  background-color: var(--color-fondo);
+  font-family: var(--font-principal);
+}
+
+.container[data-astro-cid-7hkcgugf] {
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 1.5rem;
+  margin-top: 3.1rem;
 }
 
-.hero-section[data-astro-cid-3xs2fmde] {
-  background: linear-gradient(135deg, #2c5282, #3182ce);
-  color: #fff;
-  padding: 80px 0 60px;
-  margin-bottom: 60px;
+.page-header[data-astro-cid-7hkcgugf] {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--color-borde);
 }
 
-.page-title[data-astro-cid-3xs2fmde] {
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
+.page-title[data-astro-cid-7hkcgugf] {
+  font-size: 2rem;
+  font-weight: 300;
+  color: var(--color-texto-principal);
   margin: 0;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.observatorios-content[data-astro-cid-3xs2fmde] {
-  padding-bottom: 80px;
-}
-
-.observatorio-card[data-astro-cid-3xs2fmde] {
+.centros-grid[data-astro-cid-7hkcgugf] {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 40px;
+  gap: 1.5rem;
+}
+
+.centro-card[data-astro-cid-7hkcgugf] {
+  background-color: #fff;
+  border: 1px solid var(--color-borde);
+  border-radius: 4px;
+  padding: 2rem;
+  display: flex;
   align-items: center;
-  background: #fff;
-  border-radius: 16px;
-  padding: 40px;
-  margin-bottom: 40px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  gap: 2rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
-.observatorio-card[data-astro-cid-3xs2fmde]:hover {
+.centro-card[data-astro-cid-7hkcgugf]:hover {
   transform: translateY(-5px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border-color: var(--color-dorado-unev);
 }
 
-.observatorio-card[data-astro-cid-3xs2fmde]:nth-child(2n) {
-  direction: rtl;
+.centro-logo[data-astro-cid-7hkcgugf] {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
 }
 
-.observatorio-card[data-astro-cid-3xs2fmde]:nth-child(2n) .observatorio-info[data-astro-cid-3xs2fmde],
-.observatorio-card[data-astro-cid-3xs2fmde]:nth-child(2n) .observatorio-image[data-astro-cid-3xs2fmde] {
-  direction: ltr;
-}
+.centro-logo[data-astro-cid-7hkcgugf] img[data-astro-cid-7hk
 
-.observatorio-image[data-astro-cid-3xs2fmde] {
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-}
 
-.observatorio-image[data-astro-cid-3xs2fmde] img[data-astro-cid-3xs2fmde] {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  transition: transform 0.3s ease;
-}
 
-.observatorio-image[data-astro-cid-3xs2fmde]:hover img[data-astro-cid-3xs2fmde] {
-  transform: scale(1.05);
-}
 
-.observatorio-info[data-astro-cid-3xs2fmde] h2[data-astro-cid-3xs2fmde] {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #2d3748;
-  margin-bottom: 20px;
-  line-height: 1.3;
-}
 
-.observatorio-info[data-astro-cid-3xs2fmde] p[data-astro-cid-3xs2fmde] {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  color: #4a5568;
-  margin: 0;
-}
 
-@media (max-width: 768px) {
-  .page-title[data-astro-cid-3xs2fmde] {
-    font-size: 2.2rem;
-  }
 
-  .hero-section[data-astro-cid-3xs2fmde] {
-    padding: 60px 0 40px;
-    margin-bottom: 40px;
-  }
 
-  .observatorio-card[data-astro-cid-3xs2fmde] {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    padding: 30px 20px;
-  }
-
-  .observatorio-card[data-astro-cid-3xs2fmde]:nth-child(2n) {
-    direction: ltr;
-  }
-
-  .observatorio-image[data-astro-cid-3xs2fmde] img[data-astro-cid-3xs2fmde] {
-    height: 250px;
-  }
-
-  .observatorio-info[data-astro-cid-3xs2fmde] h2[data-astro-cid-3xs2fmde] {
-    font-size: 1.5rem;
-  }
-
-  .observatorio-info[data-astro-cid-3xs2fmde] p[data-astro-cid-3xs2fmde] {
-    font-size: 1rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .container[data-astro-cid-3xs2fmde] {
-    padding: 0 15px;
-  }
-
-  .page-title[data-astro-cid-3xs2fmde] {
-    font-size: 1.8rem;
-  }
-
-  .observatorio-card[data-astro-cid-3xs2fmde] {
-    padding: 20px 15px;
-  }
-
-  .observatorio-image[data-astro-cid-3xs2fmde] img[data-astro-cid-3xs2fmde] {
-    height: 200px;
-  }
-}
-
-#navbar {
-  height: 0px;
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-.nav-link {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-#navbar:has(.desktop-nav:hover) {
-  height: 78px;
-  background-color: rgba(255, 255, 255, 0.95);
-}
-
-#navbar:has(.nav-item:hover) .nav-link {
-  color: black;
-}
 
 
 
@@ -271,5 +187,3 @@ y.forEach(e => {
     t = false, l.classList.remove("active"), c.style.display = "block", o.style.display = "none"
   })
 });
-
-
